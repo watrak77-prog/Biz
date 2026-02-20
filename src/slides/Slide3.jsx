@@ -17,11 +17,11 @@ function getReserve(step) {
     return reserve;
 }
 
-export default function Slide3({ step, direction }) {
+export default function Slide3({ step }) {
     const reserve = getReserve(step);
 
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="w-full max-w-5xl mx-auto">
                 <div className="flex items-baseline justify-between mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tight">

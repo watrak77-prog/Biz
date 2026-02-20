@@ -6,9 +6,9 @@ const items = [
     { label: 'Awaria (np. rozrząd/zawieszenie)', amount: '2 500', color: 'text-warn' },
 ];
 
-export default function Slide5({ step, direction }) {
+export default function Slide5({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="w-full max-w-5xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
                     TCO — <span className="text-warn-warm">Rok 2</span>

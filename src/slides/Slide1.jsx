@@ -1,9 +1,9 @@
 import Slide from '../components/Slide';
 import Step from '../components/Step';
 
-export default function Slide1({ step, direction }) {
+export default function Slide1({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="text-center space-y-24">
                 <div className="space-y-4">
                     <h1 className="text-7xl md:text-8xl lg:text-9xl font-black tracking-tight leading-tight">

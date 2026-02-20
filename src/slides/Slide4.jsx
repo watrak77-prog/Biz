@@ -6,9 +6,9 @@ const items = [
     { label: 'Eksploatacja i chemia', amount: '600', color: 'text-red-500' },
 ];
 
-export default function Slide4({ step, direction }) {
+export default function Slide4({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="w-full max-w-5xl mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16">
                     TCO — <span className="text-zinc-300">Rok 1</span>

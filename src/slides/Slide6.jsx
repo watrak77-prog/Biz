@@ -14,9 +14,9 @@ const colorMap = {
     warn: { text: 'text-warn', bg: 'bg-warn', border: 'border-warn', shadow: 'shadow-warn/30' },
 };
 
-export default function Slide6({ step, direction }) {
+export default function Slide6({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="w-full max-w-5xl mx-auto flex flex-col items-center">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-20 text-center text-white">
                     Utrata wartości

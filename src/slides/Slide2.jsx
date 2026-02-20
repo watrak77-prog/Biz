@@ -1,9 +1,9 @@
 import Slide from '../components/Slide';
 import Step from '../components/Step';
 
-export default function Slide2({ step, direction }) {
+export default function Slide2({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="text-center space-y-20">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-zinc-300">
                     Podział budżetu

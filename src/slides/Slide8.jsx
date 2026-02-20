@@ -8,9 +8,9 @@ const sources = [
     'mfind',
 ];
 
-export default function Slide8({ step, direction }) {
+export default function Slide8({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="w-full max-w-4xl mx-auto text-center flex flex-col items-center justify-center h-full gap-20">
                 <div>
                     <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-text-muted mb-12">

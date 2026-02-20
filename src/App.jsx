@@ -9,7 +9,7 @@ import Slide5 from './slides/Slide5';
 import Slide6 from './slides/Slide6';
 import Slide7 from './slides/Slide7';
 import Slide8 from './slides/Slide8';
-import PresentationBackground from './components/PresentationBackground';
+import StellarBackground from './components/StellarBackground';
 
 // Steps per slide (how many clicks each slide consumes)
 const SLIDE_STEPS = [1, 2, 5, 3, 3, 3, 3, 1];
@@ -118,8 +118,8 @@ export default function App() {
   const CurrentSlideComponent = SLIDES[currentSlide];
 
   return (
-    <div className="w-screen h-screen bg-surface overflow-hidden relative">
-      <PresentationBackground />
+    <div className="w-screen h-screen overflow-hidden relative">
+      <StellarBackground />
 
       {/* Slide indicator */}
       <div className="absolute top-6 right-8 z-50 flex items-center gap-2">
@@ -136,8 +136,8 @@ export default function App() {
         ))}
       </div>
 
-      <AnimatePresence mode="wait" custom={direction}>
-        <CurrentSlideComponent key={currentSlide} step={currentStep} direction={direction} />
+      <AnimatePresence mode="wait">
+        <CurrentSlideComponent key={currentSlide} step={currentStep} />
       </AnimatePresence>
     </div>
   );

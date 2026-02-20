@@ -16,9 +16,9 @@ const conclusions = [
     },
 ];
 
-export default function Slide7({ step, direction }) {
+export default function Slide7({ step }) {
     return (
-        <Slide direction={direction}>
+        <Slide>
             <div className="w-full max-w-5xl mx-auto text-center">
                 <h2 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight mb-20">
                     Co nas <span className="text-accent">zaskoczyło</span>?
